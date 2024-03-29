@@ -3,18 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Colorful Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
         }
         header {
-            background-color: #333;
+            background-color: #ff6f61;
             color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
             padding: 10px;
             text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff6f61;
         }
         section {
             padding: 20px;
@@ -32,11 +48,16 @@
 </head>
 <body>
     <header>
-        <h1>My Portfolio</h1>
+        <h1>Colorful Portfolio</h1>
     </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
     <section id="about">
         <h2>About Me</h2>
-        <p>Welcome to my portfolio website. I am passionate about coding and design.</p>
+        <p>Welcome to my colorful portfolio website. I love experimenting with vibrant designs!</p>
     </section>
     <section id="projects">
         <h2>Projects</h2>
@@ -52,8 +73,7 @@
         <p>Phone: 123-456-7890</p>
     </section>
     <footer>
-        <p>&copy; 2024 My Portfolio</p>
+        <p>&copy; 2024 Colorful Portfolio</p>
     </footer>
 </body>
 </html>
-
